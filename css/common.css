@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+li,
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+input {
+  padding: 8px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* <task 1> */
+.categories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.item {
+  border-radius: 8px;
+  background: #f6f6fe;
+  width: 392px;
+  padding: 16px;
+}
+
+.categories-list-title {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.96px;
+  padding-bottom: 16px;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.item-list li {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  align-content: flex-start;
+  padding: 8px 16px 8px 16px;
+}
+/* </task 1> */
+
+/* <task 2> */
+.gallery {
+  margin: 100px auto 100px auto;
+  max-width: 1128px;
+  display: flex;
+  flex-direction: row;
+  column-gap: calc((100% - 360px * 3) / 2);
+  row-gap: 48px;
+  flex-wrap: wrap;
+}
+.gallery img {
+  width: 360px;
+  height: 300px;
+}
+/* </task 2> */
+
+/* <task 3> */
+#name-input {
+  width: 360px;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+.input-title,
+#name-output {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.96px;
+} /* </task 3> */
