@@ -18,10 +18,7 @@ const createBoxes = () => {
 }
   boxes.insertAdjacentHTML("afterbegin", elements);
   amountInput.value = "";
-  } else {
-    alert("Value need to be from 1 to 100");
-    amountInput.value = "";
-  }
+  } 
 }
 
 const destroyBoxes = () => {boxes.innerHTML = "";}
