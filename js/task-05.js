@@ -22,5 +22,4 @@ changeBotton.addEventListener("click", () => {
   </tr>
   </tbody>
   </table>`;
-  console.log(body.style.backgroundColor);
 })
